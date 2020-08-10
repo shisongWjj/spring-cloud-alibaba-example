@@ -6,5 +6,8 @@ package com.ss.spring.cloud.example;
  * @author shisong
  * @date 2020-08-10
  */
-public class ISayHelloService {
+public interface ISayHelloService {
+
+    String sayHello(String name);
+
 }

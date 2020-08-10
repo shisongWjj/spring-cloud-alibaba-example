@@ -2,6 +2,7 @@ package com.ss.spring.cloud.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * ServiceConsumerApplication
@@ -9,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author shisong
  * @date 2020-08-10
  */
+@EnableDiscoveryClient
 @SpringBootApplication
 public class ServiceProviderApplication {
 
